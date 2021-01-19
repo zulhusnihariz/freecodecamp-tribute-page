@@ -1,20 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    
     /* font-size: 100%; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 
 /* --------------------------------- Global --------------------------------- */
-
-h1{
-    margin: 0;
-    padding: 0;
-}
-a, a:visited{
+a, a:visited, a:hover{
+    color: white;
     text-decoration: none;
     /* color: black; */
+    
+}
+
+body{
+    background-color: white;
+    position: relative;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    position: absolute;
+    background-color: #eeeeee;
+    top: 72px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 /* ----------------------------- Navigation Bar ----------------------------- */
@@ -23,19 +49,20 @@ a, a:visited{
     align-items: center;
     background-color: #1e1f26;
     display: flex;
-    height: 65px;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 
 .logo{
-    position: relative;
-    padding-right: 10px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-right: auto;
     margin-left: 5px;
+
 }
 
 .logo-img{
@@ -46,12 +73,14 @@ a, a:visited{
     width: 30px;
 }
 
-
-.logo-title, .logo-title h1 a{
+.logo h1 {
+    align-items: center;
     display:flex;
-    color: white;
+    justify-content: center;
     font-size: 1.3rem;
-    padding-top: 5px;
+    margin: 0px;
+    padding: 0px;
+    width: 167px;
 }
 
 .fcc-follow{
@@ -155,7 +184,67 @@ a, a:visited{
 #signup:hover{
     filter: brightness(85%);
 }
+
 #login{
     width: 77px;
+}
+/* ---------------------------------- Main ---------------------------------- */
+
+main{
+    margin-top: 30px 8px;
+
+    position: relative;
+}
+
+main p{
+    padding-bottom: 23px;
+
+}
+
+
+#title{
+    color: #333333;
+    font-size: 2.8125rem;
+    padding-top: 57px;
+    padding-bottom: 37px;
+    position: relative;
+    text-align: center;
+}
+
+#img-div{
+    background-color: white;
+}
+
+section h3 {
+    line-height: 1.5;
+    text-align: center;
+    margin: 50px auto 50px auto;
+}
+
+
+section ul{
+    text-align: left;
+    margin: 0 auto 25px auto;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+
+section li {
+    text-align: justify;
+    margin: 16px;
+}
+
+section p{
+    margin-top: 50px;
+}
+
+#wiki {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 50px;
+
+
 
 }
