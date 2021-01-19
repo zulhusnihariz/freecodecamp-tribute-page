@@ -1,0 +1,161 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    /* font-size: 100%; */
+    /* box-sizing: border-box; */
+}
+
+
+/* --------------------------------- Global --------------------------------- */
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+a, a:visited{
+    text-decoration: none;
+    /* color: black; */
+}
+
+/* ----------------------------- Navigation Bar ----------------------------- */
+
+.header{
+    align-items: center;
+    background-color: #1e1f26;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    padding-right: 10px;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.logo-img{
+    color: white;
+    height: 30px;
+    margin-left: 5px;
+    padding-right: 5px;
+    width: 30px;
+}
+
+
+.logo-title, .logo-title h1 a{
+    display:flex;
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+.fcc-follow{
+    padding-bottom: 15px;
+}
+
+
+.nav-main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.nav-main button{
+    background-color: #444857;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    height: 45px;
+    margin-right: 10px;
+
+}
+
+.nav-main button:hover{
+    background-color: #5a5f73;
+}
+
+#button-follow {
+    align-items: center;
+    border: 0 solid;
+    background-color: #5a5f73;
+    border-radius: 2px;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    height: 16px;    
+    justify-content: center;
+    padding: 0;
+    width: 58px;
+}
+
+#button-follow:hover{
+    background-color: #47cf73;
+    color: #1e1f26;
+}
+
+#link-fcc {
+    color: #444857;
+    font-size: 0.875rem;
+    padding-right: 5px;
+    color: #8f8587;
+}
+
+#link-fcc:hover{
+    color:white;
+}
+
+#heart{
+    background-color: #1e1f26;
+    border: 3px solid #444857;
+    color: #adafbc;
+    width: 56px;
+}
+
+#heart:hover{
+    background-color: #5a5f73;
+}
+
+#hearticon{
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+#eyeicon{
+    width: 17px;
+    height: 17px;
+}
+
+#changeView{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 146px;
+}
+
+#changeView span {
+    margin-top:5px;
+    margin-right: 5px;
+}
+
+#signup{
+    background-color: #47cf73;
+    color: #00000a;
+    font-weight: 700;
+    width: 89px;
+}
+
+#signup:hover{
+    filter: brightness(85%);
+}
+#login{
+    width: 77px;
+
+}
